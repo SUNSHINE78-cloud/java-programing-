@@ -1,0 +1,12 @@
+package last;
+
+public class Test {
+    public static void main(String[] args) {
+        Student student1 = new Student();
+        Student student2 = new Student();
+
+        // Print the name
+        System.out.println("The name of student1 is " + student1.getName());
+        System.out.println("The name of student2 is " + student2.getName());
+    }
+}
